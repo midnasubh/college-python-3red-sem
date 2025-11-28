@@ -14,5 +14,5 @@ x=tf.fit_transform(df["Text"])
 tf_df=pd.DataFrame(x.toarray(),columns=tf.get_feature_names_out())
 print("_"*20)
 print("TF-IDF representation ")
-print(tf_df)
+print(tf_df )
 # tf*idf
