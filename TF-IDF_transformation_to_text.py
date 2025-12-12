@@ -34,5 +34,5 @@ tf_df=pd.DataFrame(x.toarray(),columns=tf.get_feature_names_out())
 print("_"*20)
 print("TF-IDF representation ")
 print(tf_df )
->>>>>>> 59fb9afcc8fee418f11b8b598fab4bd42320a753
+>>>>>>> 421369c (Add various data processing and transformation scripts including TF-IDF, bag of words, equal frequency and width binning, image manipulation, and lemmatization)
 # tf*idf

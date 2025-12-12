@@ -24,5 +24,5 @@ poly=PolynomialFeatures(degree=2,include_bias=False)
 poly_featues=poly.fit_transform(df)
 feature_name=poly.get_feature_names_out(['x1','x2'])
 poly_df=pd.DataFrame(poly_featues,columns=feature_name)
->>>>>>> 59fb9afcc8fee418f11b8b598fab4bd42320a753
+>>>>>>> 421369c (Add various data processing and transformation scripts including TF-IDF, bag of words, equal frequency and width binning, image manipulation, and lemmatization)
 print(poly_df)
