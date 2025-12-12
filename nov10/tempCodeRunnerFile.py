@@ -1,0 +1,1 @@
+print(dubfor(l))

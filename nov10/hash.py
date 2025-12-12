@@ -3,7 +3,7 @@ s=0
 t=num
 while num!=0:
     r=num%10
-    s=s+r
+    s=s+r  
     num=num//10
 if t%s==0:
     print("Hash number ")
