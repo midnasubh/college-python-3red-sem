@@ -32,5 +32,5 @@ x=vect.fit_transform(df["Text"])
 bow_df=pd.DataFrame(x.toarray(),columns=vect.get_feature_names_out())
 print("-"*20)
 print("bag of words")
->>>>>>> 421369c (Add various data processing and transformation scripts including TF-IDF, bag of words, equal frequency and width binning, image manipulation, and lemmatization)
+>>>>>>> 59fb9afcc8fee418f11b8b598fab4bd42320a753
 print(bow_df)
